@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventsy</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav id="nav-holder" class="whiteNav">
+      <div id="logo" class="logo">eventsy</div>
+      <div id="links" class="links">
+        <a id="home" class="wording" href="#">home</a
+        ><span class="dashes">/</span>
+        <a id="about" class="wording" href="#">about</a
+        ><span class="dashes">/</span>
+        <a id="gallery" class="wording" href="#">gallery</a
+        ><span class="dashes">/</span>
+        <a id="blog" class="wording" href="#">blog</a
+        ><span class="dashes">/</span>
+        <a id="contact" class="wording" href="#">contact</a
+        ><span class="dashes">/</span>
+      </div>
+    </nav>
+
+    <div id="app"></div>
+
+    <section class="contactinfo">
+      <div id="logo" class="logo">eventsy</div>
+      <section class="address">420 Smoke St. Los Angeles, CA 46318</section>
+      <section class="number">(213)-467-2627</section>
+      <section class="email">info@eventsy.com</section>
+      <section class="textfieldinfo">
+        <div class="leftone">
+          <input
+            type="text"
+            class="textfield"
+            placeholder="Enter your email to join newsletter..."
+          />
+        </div>
+        <div class="rightone">
+          <input class="sendmessagebutton" type="button" value="SUBSCRIBE" />
+        </div>
+      </section>
+      <section class="group-social-media">
+        <section class="social-media-icons1">
+          <i
+            class="fa-brands fa-square-facebook fa-xl"
+            style="color: #ffffff"
+          ></i>
+        </section>
+        <section class="social-media-icons2">
+          <i
+            class="fa-brands fa-square-instagram fa-xl"
+            style="color: #ffffff"
+          ></i>
+        </section>
+        <section class="social-media-icons3">
+          <i
+            class="fa-brands fa-square-twitter fa-xl"
+            style="color: #ffffff"
+          ></i>
+        </section>
+      </section>
+      <section class="copyrights">
+        Copyright 2019 eventsy. All rights reserved
+      </section>
+    </section>
+
+    <script src="lib/jquery-3.7.1.min"></script>
+    <script type="module" src="model/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+.containerfive{
+    .contactform{
+        display: flex;
+        justify-content: space-between;
+        height: 800px;
+        width: 70%;
+        margin-left: 15%;
+        .textFields{
+            width: 100%;
+            height: 60px;
+            margin-bottom: 21px;
+            border: none;
+            background-color: #F5F5F5;
+        }
+        .textFieldsMessages{
+            width: 100%;
+            height: 199px;
+            margin-bottom: 21px;
+            border: none;
+            background-color: #F5F5F5;
+        }
+        .map{
+            width: 400px;
+            height: 637px;
+            margin-top: 60px;
+            .mapimage{
+                width: 100%;
+                height: 442px;
+                margin-bottom: 34px;
+                background-image: url(../images/contactusmap.png);
+            }
+
+            .mapaddress{
+                width: 100%;
+                height: 161px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: lighter;
+                font-size: 18px;
+               
+            }
+        }
+    
+        .contactboxes{
+            width: 470px;
+            height: 600px;
+            margin-top: 60px;
+        }
+
+        .sendmessagebutton{
+        font-size: 16px;
+        padding: 20px 20px;
+        background-color: #EE4367;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        width: 35%;
+        text-align: center;
+        margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .containerfive {
+        height: 1200px;
+     .contactform{
+        flex-direction: column;
+       .contactboxes{
+       }
+        .sendmessagebutton{
+            width: 35%;
+        }
+     }
+    }
+  }

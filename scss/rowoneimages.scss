@@ -1,0 +1,104 @@
+.rowoneimages{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    height: 700px;
+    width: 70%;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+    .galleryfoodimage{
+        background-image: url(../images/galleryfoodimage.png);
+        height: 30%;
+        width: 45%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+    }
+
+    .dee-jaygalleryimage{
+        height: 30%;
+        width: 20%;
+        background-image: url(../images/dee-jaygalleryimage.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .groupgalleryimage{
+        height: 30%;
+        width: 30%;
+        background-image: url(../images/groupgalleryimage.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .rowtwoimages{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 500px;
+        width: 100%;
+        padding-top: 20px;
+        .openfoodareaimage{
+            height: 60%;
+            width: 62%;
+            background-image: url(../images/openfoodareaimage.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .internationalgalleryimage{
+            height: 60%;
+            width: 35%;
+            background-image: url(../images/internationalgalleryimage.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    
+
+}
+
+@media screen and (max-width: 800px) {
+    .rowoneimages {
+       flex-direction: column;
+       display: flex;
+       align-items: center;
+       height: 700px;
+       padding-bottom: 20px;
+       
+        .galleryfoodimage{
+            width: 50%;
+        }
+
+        .dee-jaygalleryimage{
+            width: 50%;
+        }
+
+        .groupgalleryimage{
+            width: 50%;
+        }
+
+       .rowtwoimages{
+        flex-direction: column;
+        padding-left: 20px;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+
+        .openfoodareaimage{
+            width: 50%;
+            padding-bottom: 20px;
+        }
+
+        .internationalgalleryimage{
+            width: 50%;
+        }
+       }
+    }
+  }

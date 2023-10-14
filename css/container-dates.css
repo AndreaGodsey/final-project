@@ -1,0 +1,45 @@
+.dispatch-event {
+  width: 174px;
+}
+.dispatch-event .date-time {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+.dispatch-event .dispatch-image img {
+  width: 100%;
+}
+.dispatch-event .title-bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3px;
+}
+.dispatch-event .title-bubble .title h5 {
+  font-size: 11px;
+  margin-bottom: 3px;
+  color: black;
+}
+.dispatch-event .title-bubble .bubble {
+  position: relative;
+  width: 24px;
+  height: 16px;
+  background-color: darkgrey;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+.dispatch-event .title-bubble .bubble .triangle {
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 7px 7px 0 0;
+  border-color: darkgray transparent transparent transparent;
+}

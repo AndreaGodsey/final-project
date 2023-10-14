@@ -1,0 +1,54 @@
+.openfoodfest{
+    margin: 0 auto;
+    background-image: url(../images/openfoodfest.png);
+    width: 70%;
+    height: 378px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    .callout2{
+        display: flex;
+        align-items: center;
+        padding-top: 130px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 100%;
+    
+
+
+    .bignumber{
+        font-size: 270px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #540D6E;
+        font-style: bold;
+    }
+
+
+    .titleofevent{
+        font-size: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #540D6E;
+        padding-right: 7px;
+        font-style: bold;
+    }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .openfoodfest {
+     width: 70%;
+     .callout2{
+        padding-top: 283px;
+        .bignumber{
+            font-size: 100px;
+            
+        }
+
+        .titleofevent{
+          font-size: 70px;
+            
+        }
+     }
+    }
+  }

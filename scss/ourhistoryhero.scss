@@ -1,0 +1,16 @@
+.ourhistoryhero{
+    margin: 0 auto;
+    background-image: url(../images/ourhistoryhero.png);
+    width: 70%;
+    height: 378px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+    .ourhistoryhero {
+     min-width: 70%;
+     height: 378px;
+    }
+  }

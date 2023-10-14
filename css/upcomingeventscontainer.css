@@ -1,0 +1,66 @@
+.upcomingeventscontainer .upcomingtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightgray;
+  font-family: Norwester;
+}
+@font-face {
+  font-family: Norwester;
+  src: url(../fonts/norwester/norwester.otf);
+}
+.upcomingeventscontainer .dispatch-event {
+  width: 174px;
+}
+.upcomingeventscontainer .dispatch-event .date-time {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+.upcomingeventscontainer .dispatch-event .dispatch-image img {
+  width: 100%;
+}
+.upcomingeventscontainer .dispatch-event .title-bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3px;
+}
+.upcomingeventscontainer .dispatch-event .title-bubble .title h5 {
+  font-size: 11px;
+  margin-bottom: 3px;
+  color: black;
+}
+.upcomingeventscontainer .dispatch-event .title-bubble .bubble {
+  position: relative;
+  width: 24px;
+  height: 16px;
+  background-color: darkgrey;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+.upcomingeventscontainer .dispatch-event .title-bubble .bubble .triangle {
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 7px 7px 0 0;
+  border-color: darkgray transparent transparent transparent;
+}

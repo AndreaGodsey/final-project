@@ -1,0 +1,33 @@
+.text-container{
+    min-height: 300px;
+    padding: 77px;
+    .paragraphjohn{
+        margin-left: 22%;
+        font-size: 15px;
+        font-style: italic;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFD140;
+        width: 60%;
+    
+        .nameofboss{
+            margin-top: 2%;
+            font-style: normal;
+            font-size: 15px;
+            color: #EE4367;
+            font-family: PT-Serif-Regular;
+        }
+
+        .copyrightinfo{
+            margin-top: 5px;
+            font-size: 10px;
+            font-style: normal;
+            color: #A8A8A8;
+            font-family: PT-Serif-Regular;
+
+            @font-face {
+                font-family: PT-Serif-Regular;
+                src: url(../fonts/PT_Serif/PTSerif-Regular.ttf);
+            }
+        }
+    }
+}
